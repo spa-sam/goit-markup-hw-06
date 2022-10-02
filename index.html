@@ -575,8 +575,29 @@
             </li>
           </ul>
         </div>
+        <div class="form-subscr">
+          <!----------------------------------- FORM ---------------------------------------->
+          <form action="javascript:void(0);" autocomplete="off">
+            <label for="mail" class="lbl-subscr">Підпишіться на розсилку</label>
+            <input
+              type="email"
+              name="subscription"
+              id="mail"
+              placeholder="E-mail"
+              class="input-subscr"
+            />
+            <button type="submit" class="sub-button">
+              Підписатися
+              <svg class="icon-send" width="24px" height="24px">
+                <use href="./images/icons.svg#send"></use>
+              </svg>
+            </button>
+          </form>
+          <!-- --------------------------------------------------------------------------- -->
+        </div>
       </div>
     </footer>
+    <!-- -------------MODAL---------------------- -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button modal-close" data-modal-close>
@@ -589,6 +610,41 @@
             ></use>
           </svg>
         </button>
+        <!-- input form -->
+        <form class="modal-form">
+          <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
+          <div class="form-field">
+            <label class="form-label" for="name">Ім'я</label>
+            <input class="form-input" type="text" name="name" id="name" />
+            <svg class="form-icon">
+              <use href="./images/icons.svg#person" width="18" height="18"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="tel">Телефон</label>
+            <input class="form-input" type="text" name="tel" id="tel" />
+            <svg class="form-icon">
+              <use href="./images/icons.svg#phone" width="18" height="18"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="mail">Пошта</label>
+            <input class="form-input" type="email" name="mail" id="mail" />
+            <svg class="form-icon">
+              <use href="./images/icons.svg#email" width="18" height="18"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="comment">Коментар</label>
+            <textarea
+              class="form-comment"
+              type="text"
+              name="comment"
+              id="comment"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
     <!-- script -->
