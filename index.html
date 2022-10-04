@@ -611,7 +611,7 @@
           </svg>
         </button>
         <!-- input form -->
-        <form class="modal-form">
+        <form class="modal-form centered" autocomplete="off">
           <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
           <div class="form-field">
             <label class="form-label" for="name">Ім'я</label>
@@ -634,7 +634,7 @@
               <use href="./images/icons.svg#email" width="18" height="18"></use>
             </svg>
           </div>
-          <div class="form-field">
+          <div class="form-field comment-field">
             <label class="form-label" for="comment">Коментар</label>
             <textarea
               class="form-comment"
@@ -644,6 +644,18 @@
               placeholder="Введіть текст"
             ></textarea>
           </div>
+          <label class="policy-label">
+            <input class="policy-checkbox" type="checkbox" name="policy" />
+            Погоджуюся з розсилкою та приймаю
+            <a href="#" class="policy-link link"> Умови договору</a>
+            <svg class="policy-box" width="16" height="15">
+              <use href="./images/icons.svg#check-box"></use>
+            </svg>
+            <svg class="policy-check" width="16" height="15">
+              <use href="./images/icons.svg#check"></use>
+            </svg>
+          </label>
+          <button class="form-button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
