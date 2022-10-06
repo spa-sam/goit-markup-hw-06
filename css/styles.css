@@ -844,7 +844,12 @@ footer .logo-studio {
   transition: outline-color var(--timing);
 }
 
-.form-input:focus {
+.form-input:focus,
+.form-input:hover,
+.form-input:active {
+  /* border-color: #2196f3; */
+  outline-width: 1px;
+  outline-style: solid;
   outline-color: #2196f3;
 }
 
@@ -881,7 +886,8 @@ footer .logo-studio {
   transition: fill var(--timing);
 }
 
-.form-input:focus + .form-icon {
+.form-input:focus + .form-icon,
+.form-input:hover + .form-icon {
   fill: #2196f3;
 }
 
