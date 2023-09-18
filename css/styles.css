@@ -1,90 +1,13 @@
-/* --------------------------- Global styles --------------------------- */
-:root {
-  --body-bgcolor: #fff;
-  --body-text-color: #434455;
-  --logo-color: #4d5ae5;
-  --logo-second-half-color: #2e2f42;
-  --logo-hover-color: #404bbf;
-  --menu-list-link-color: #2e2f42;
-  --menu-list-link-hover-color: #404bbf;
-  --contact-list-link-color: #434455;
-  --contact-list-link-hover-color: #404bbf;
-  --hero-bgcolor: #2e2f42;
-  --hero-title-color: #fff;
-  --hero-button-text-color: #fff;
-  --hero-button-bgcolor: #4d5ae5;
-  --hero-button-hover-bgcolor: #404bbf;
-  --benefits-list-title-color: #2e2f42;
-  --team-bgcolor: #f4f4fd;
-  --team-title-color: #2e2f42;
-  --team-portfolio-text-color: #2e2f42;
-  --team-member-bgcolor: #fff;
-  --page-footer-bgcolor: #2e2f42;
-  --foot-logo-part-color: #f4f4fd;
-  --foot-text-color: #f4f4fd;
-  --body-font-family: 'Roboto', sans-serif;
-  --logo-font-family: 'Raleway', sans-serif;
-
-  --timing: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style-type: none;
-}
-
-button {
-  cursor: pointer;
-  font-family: inherit;
-}
-
 body {
   font-family: var(--body-font-family); /* 'Roboto', sans-serif; */
   color: var(--body-text-color); /* #434455 */
   background-color: var(--body-bgcolor); /* #fff */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* ======================= Header styles ======================= */
 
 .page-header {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
   border-bottom: 1px solid #e7e9fc;
-  /* margin-bottom: 2px; */
 }
 
 .page-header-container {
@@ -230,18 +153,7 @@ img {
 }
 
 /* Benefits section styles */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .benefits-icon {
   display: flex;
   margin-bottom: 8px;
