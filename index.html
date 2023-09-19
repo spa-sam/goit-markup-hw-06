@@ -18,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- Styles connect again -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/index.css" />
     <title>WebStudio</title>
   </head>
@@ -35,7 +35,7 @@
             <li class="item"><a class="link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <button type="button" class="open-mobile-menu-btn">
+        <button type="button" class="open-mobile-menu-btn" data-mobile-open>
           <svg
             class="open-mobile-menu-icon"
             width="24"
@@ -712,19 +712,95 @@
       </div>
     </div> -->
     <!-- ====================== MOBILE MENU ====================== -->
-    <div class="mobile-menu">
-      <button type="button" class="mobile-menu-close-btn">
+    <div class="mobile-menu is-hidden" data-mobile>
+      <button type="button" class="mobile-menu-close-btn" data-mobile-close>
         <svg
           class="mobile-menu-close-icon"
-          width="24"
-          height="24"
+          width="8"
+          height="8"
           aria-label="mobile menu close icon"
         >
           <use href="./images/icons/sprite.svg#icon-close"></use>
         </svg>
       </button>
+      <div class="mobile-list-link">
+        <ul class="mobile-menu-list list">
+          <li class="item"><a class="current-link link" href="./index.html">Studio</a></li>
+          <li class="item"><a class="link" href="">Portfolio</a></li>
+          <li class="item"><a class="link" href="">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="mobile-list-contact">
+        <address class="mobile-menu-address">
+          <ul class="contact-list list">
+            <li class="item">
+              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+        <div class="mobile-social-link">
+          <ul class="mobile-social-list list">
+            <li>
+              <a
+                href="#"
+                class="social-link link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="link instagram"
+              >
+                <svg class="mobile-list-icon" width="16" height="16">
+                  <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="social-link link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="link instagram"
+              >
+                <svg class="mobile-list-icon" width="16" height="16">
+                  <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="social-link link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="link instagram"
+              >
+                <svg class="mobile-list-icon" width="16" height="16">
+                  <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="social-link link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="link instagram"
+              >
+                <svg class="mobile-list-icon" width="16" height="16">
+                  <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <!-- script -->
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile_menu.js"></script>
   </body>
 </html>
