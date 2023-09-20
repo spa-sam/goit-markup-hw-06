@@ -56,7 +56,12 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   line-height: 0;
-  transition: background-color var(--timing);
+  transition: background-color var(--timing), fill var(--timing);
+}
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:focus {
+  background-color: #404bbf;
+  fill: white;
 }
 
 .mobile-menu {
@@ -100,10 +105,7 @@
   margin-top: auto;
   padding-left: 16px;
 }
-.mobile-menu-address {
-  /* padding-top: 168px;
-  padding-left: 16px; */
-}
+
 .contact-list {
   display: inline-flex;
   flex-direction: column;
@@ -139,6 +141,21 @@
 .mobile-list-icon {
   fill: white;
 }
+
+@media screen and (min-width: 768px) {
+  .open-mobile-menu-btn {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .head-address {
+    display: block;
+  }
+}
+
 /* 
 
 .page-header {
