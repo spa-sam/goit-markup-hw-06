@@ -2,6 +2,25 @@
   margin-top: 96px;
 }
 
+.benefits-list-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-bottom: 8px;
+}
+
+.benefits-list-text {
+  color: #434455;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 @media screen and (max-width: 767px) {
   .benefits-list {
     display: flex;
@@ -12,22 +31,8 @@
     display: none;
   }
   .benefits-list-title {
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.12;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding-bottom: 8px;
     text-align: center;
-  }
-  .benefits-list-text {
-    color: #434455;
     font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
   }
 }
 
@@ -45,23 +50,10 @@
     width: 356px;
   }
   .benefits-list-title {
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.12;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding-bottom: 8px;
-  }
-  .benefits-list-text {
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    padding-bottom: 0;
   }
 }
+
 @media screen and (min-width: 1158px) {
   .benefits-list-item {
     width: 264px;
@@ -88,20 +80,11 @@
   }
 
   .benefits-list-title {
-    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding-bottom: 8px;
   }
   .benefits-list-text {
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
     font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
   }
 }

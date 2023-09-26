@@ -18,10 +18,17 @@
   background-color: var(--hero-button-hover-bgcolor);
 }
 
+.hero {
+  background-color: var(--hero-bgcolor);
+  text-align: center;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (max-width: 767px) {
   .hero {
-    background-color: var(--hero-bgcolor);
-    text-align: center;
     padding-top: 72px;
     padding-bottom: 72px;
 
@@ -60,8 +67,6 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-color: var(--hero-bgcolor);
-    text-align: center;
     padding-top: 112px;
     padding-bottom: 112px;
 
@@ -97,8 +102,6 @@
 
 @media screen and (min-width: 1158px) {
   .hero {
-    background-color: var(--hero-bgcolor);
-    text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
 
